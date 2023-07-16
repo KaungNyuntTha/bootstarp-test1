@@ -1,0 +1,30 @@
+*{
+    color:antiquewhite !important;
+}
+
+/* custom need important when same value*/
+/* .my-color{
+    color: antiquewhite !important;
+} */
+
+.carousel-item>img{
+    height: calc(100vh - 80px);
+    object-fit: cover;
+}
+.carousel-caption{
+    bottom: 13.25rem !important;
+}
+
+
+
+
+
+
+/* media queries */
+@media (max-width:650px){
+    .about-img, 
+    .about-text{
+        width: 100% !important;
+        padding: 1.2rem !important;
+    }
+}
